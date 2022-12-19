@@ -9,5 +9,5 @@
 day = int(input("Введите день недели от 1 до 7: "))
 while day < 1 or day > 7:
     day = int(input("Введите день недели от 1 до 7: "))
-if day > 1 and day < 6: print('Рабочий день')
+if 0 < day < 6: print('Рабочий день')
 else: print('Выходной день')
