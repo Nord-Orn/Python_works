@@ -6,6 +6,6 @@
 numb = input('Введите число: ')
 i, summ = 0, 0
 while i < len(numb): 
-    if numb[i] == '.' or numb[i] == '-'or numb[i] == ',' : i += 1
+    if numb[i] == '.' or numb[i] == '-'or numb[i] == ',': i += 1
     else: summ += int(numb[i]); i += 1
 print('Сумма цифр в числе: ', summ)
