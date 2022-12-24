@@ -5,11 +5,11 @@
 
 from random import randint
 
-n = int(input('Введите длину списка'))
+n = int(input('Введите длину списка: '))
 mlist = []
 summ = 0
 for i in range(n):
-    r = randint(1, 10)
+    r = randint(1, 6)
     mlist.append(r)
     if i % 2 != 0: summ += r
 print(mlist, 'Сумма нечётных позиций= ', summ)
