@@ -7,7 +7,6 @@
 n = int(input('Введите число: '))
 rez = ' '
 while n > 0:
-    chs = str(n % 2)
-    rez = chs + rez
+    rez = str(n % 2) + rez
     n = n//2
 print(rez)
