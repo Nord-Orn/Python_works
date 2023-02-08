@@ -13,6 +13,7 @@ def button_click():
             view.view_import_no()
         else:
             view.view_import(res_search)
+
     elif rezhim.lower() == 'экспорт':
         result = view.inp_export()
         log.making(result)
