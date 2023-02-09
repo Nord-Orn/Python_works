@@ -17,6 +17,7 @@ def search (sn):
     return 'Таких людей не найдено'
 
 
+
 def export (res):
     path = 'data.txt'
     with open(path, 'a', encoding='utf-8') as file:

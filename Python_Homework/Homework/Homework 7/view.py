@@ -7,8 +7,10 @@ def inp_import():
     surname = input('Введите фамилию для поиска: ')
     return surname
 
+
 def view_import (result):
     print(*result, sep='\n')
+
 
 def inp_export():
     surname = input('Введите фамилию: ')
