@@ -10,4 +10,4 @@ rez_list = [i for i in line_list if all(el not in i for el in simbol)]
 print(rez_list)
 with open('Rez_Task1.txt', 'w', encoding='utf-8') as file:
    for i in rez_list:
-       file.write(str(i)+' ')
+       file.write(i + ' ')
