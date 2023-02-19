@@ -1,0 +1,5 @@
+2023-02-19 20:06:20,747: INFO _welcome-362 Bot: Ñalculator_bot [@Trial_calc_bot]
+2023-02-19 20:06:20,747: INFO start_polling-358 Start polling.
+2023-02-19 20:06:20,972: INFO start_handler-22 user_id=5451582660 user_bot=False user_message='/start'
+2023-02-19 20:06:20,972: INFO start_handler-22 user_id=5451582660 user_bot=False user_message='/start'
+2023-02-19 20:06:41,272: INFO start_handler-22 user_id=5451582660 user_bot=False user_message='/start'
